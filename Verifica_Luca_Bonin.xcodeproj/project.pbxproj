@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5FD54221A3FAD60093B387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD54121A3FAD60093B387 /* AppDelegate.swift */; };
+		6E5FD54421A3FAD60093B387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD54321A3FAD60093B387 /* ViewController.swift */; };
+		6E5FD54721A3FAD60093B387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FD54521A3FAD60093B387 /* Main.storyboard */; };
+		6E5FD54921A3FAD70093B387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FD54821A3FAD70093B387 /* Assets.xcassets */; };
+		6E5FD54C21A3FAD70093B387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FD54A21A3FAD70093B387 /* LaunchScreen.storyboard */; };
+		6E5FD55721A3FAD70093B387 /* Verifica_Luca_BoninTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD55621A3FAD70093B387 /* Verifica_Luca_BoninTests.swift */; };
+		6E5FD56221A3FAD70093B387 /* Verifica_Luca_BoninUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD56121A3FAD70093B387 /* Verifica_Luca_BoninUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5FD55321A3FAD70093B387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5FD53621A3FAD50093B387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5FD53D21A3FAD50093B387;
+			remoteInfo = Verifica_Luca_Bonin;
+		};
+		6E5FD55E21A3FAD70093B387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5FD53621A3FAD50093B387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5FD53D21A3FAD50093B387;
+			remoteInfo = Verifica_Luca_Bonin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E5FD53E21A3FAD50093B387 /* Verifica_Luca_Bonin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verifica_Luca_Bonin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5FD54121A3FAD60093B387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E5FD54321A3FAD60093B387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E5FD54621A3FAD60093B387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E5FD54821A3FAD70093B387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E5FD54B21A3FAD70093B387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E5FD54D21A3FAD70093B387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5FD55221A3FAD70093B387 /* Verifica_Luca_BoninTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Verifica_Luca_BoninTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5FD55621A3FAD70093B387 /* Verifica_Luca_BoninTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verifica_Luca_BoninTests.swift; sourceTree = "<group>"; };
+		6E5FD55821A3FAD70093B387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5FD55D21A3FAD70093B387 /* Verifica_Luca_BoninUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Verifica_Luca_BoninUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5FD56121A3FAD70093B387 /* Verifica_Luca_BoninUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verifica_Luca_BoninUITests.swift; sourceTree = "<group>"; };
+		6E5FD56321A3FAD70093B387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5FD53B21A3FAD50093B387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5FD54F21A3FAD70093B387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5FD55A21A3FAD70093B387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5FD53521A3FAD50093B387 = {
+			isa = PBXGroup;
+			children = (
+				6E5FD54021A3FAD50093B387 /* Verifica_Luca_Bonin */,
+				6E5FD55521A3FAD70093B387 /* Verifica_Luca_BoninTests */,
+				6E5FD56021A3FAD70093B387 /* Verifica_Luca_BoninUITests */,
+				6E5FD53F21A3FAD50093B387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5FD53F21A3FAD50093B387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FD53E21A3FAD50093B387 /* Verifica_Luca_Bonin.app */,
+				6E5FD55221A3FAD70093B387 /* Verifica_Luca_BoninTests.xctest */,
+				6E5FD55D21A3FAD70093B387 /* Verifica_Luca_BoninUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5FD54021A3FAD50093B387 /* Verifica_Luca_Bonin */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FD54121A3FAD60093B387 /* AppDelegate.swift */,
+				6E5FD54321A3FAD60093B387 /* ViewController.swift */,
+				6E5FD54521A3FAD60093B387 /* Main.storyboard */,
+				6E5FD54821A3FAD70093B387 /* Assets.xcassets */,
+				6E5FD54A21A3FAD70093B387 /* LaunchScreen.storyboard */,
+				6E5FD54D21A3FAD70093B387 /* Info.plist */,
+			);
+			path = Verifica_Luca_Bonin;
+			sourceTree = "<group>";
+		};
+		6E5FD55521A3FAD70093B387 /* Verifica_Luca_BoninTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FD55621A3FAD70093B387 /* Verifica_Luca_BoninTests.swift */,
+				6E5FD55821A3FAD70093B387 /* Info.plist */,
+			);
+			path = Verifica_Luca_BoninTests;
+			sourceTree = "<group>";
+		};
+		6E5FD56021A3FAD70093B387 /* Verifica_Luca_BoninUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FD56121A3FAD70093B387 /* Verifica_Luca_BoninUITests.swift */,
+				6E5FD56321A3FAD70093B387 /* Info.plist */,
+			);
+			path = Verifica_Luca_BoninUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5FD53D21A3FAD50093B387 /* Verifica_Luca_Bonin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5FD56621A3FAD70093B387 /* Build configuration list for PBXNativeTarget "Verifica_Luca_Bonin" */;
+			buildPhases = (
+				6E5FD53A21A3FAD50093B387 /* Sources */,
+				6E5FD53B21A3FAD50093B387 /* Frameworks */,
+				6E5FD53C21A3FAD50093B387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verifica_Luca_Bonin;
+			productName = Verifica_Luca_Bonin;
+			productReference = 6E5FD53E21A3FAD50093B387 /* Verifica_Luca_Bonin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5FD55121A3FAD70093B387 /* Verifica_Luca_BoninTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5FD56921A3FAD70093B387 /* Build configuration list for PBXNativeTarget "Verifica_Luca_BoninTests" */;
+			buildPhases = (
+				6E5FD54E21A3FAD70093B387 /* Sources */,
+				6E5FD54F21A3FAD70093B387 /* Frameworks */,
+				6E5FD55021A3FAD70093B387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5FD55421A3FAD70093B387 /* PBXTargetDependency */,
+			);
+			name = Verifica_Luca_BoninTests;
+			productName = Verifica_Luca_BoninTests;
+			productReference = 6E5FD55221A3FAD70093B387 /* Verifica_Luca_BoninTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E5FD55C21A3FAD70093B387 /* Verifica_Luca_BoninUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5FD56C21A3FAD70093B387 /* Build configuration list for PBXNativeTarget "Verifica_Luca_BoninUITests" */;
+			buildPhases = (
+				6E5FD55921A3FAD70093B387 /* Sources */,
+				6E5FD55A21A3FAD70093B387 /* Frameworks */,
+				6E5FD55B21A3FAD70093B387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5FD55F21A3FAD70093B387 /* PBXTargetDependency */,
+			);
+			name = Verifica_Luca_BoninUITests;
+			productName = Verifica_Luca_BoninUITests;
+			productReference = 6E5FD55D21A3FAD70093B387 /* Verifica_Luca_BoninUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5FD53621A3FAD50093B387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = developer.llb;
+				TargetAttributes = {
+					6E5FD53D21A3FAD50093B387 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6E5FD55121A3FAD70093B387 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6E5FD53D21A3FAD50093B387;
+					};
+					6E5FD55C21A3FAD70093B387 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6E5FD53D21A3FAD50093B387;
+					};
+				};
+			};
+			buildConfigurationList = 6E5FD53921A3FAD50093B387 /* Build configuration list for PBXProject "Verifica_Luca_Bonin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E5FD53521A3FAD50093B387;
+			productRefGroup = 6E5FD53F21A3FAD50093B387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5FD53D21A3FAD50093B387 /* Verifica_Luca_Bonin */,
+				6E5FD55121A3FAD70093B387 /* Verifica_Luca_BoninTests */,
+				6E5FD55C21A3FAD70093B387 /* Verifica_Luca_BoninUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5FD53C21A3FAD50093B387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5FD54C21A3FAD70093B387 /* LaunchScreen.storyboard in Resources */,
+				6E5FD54921A3FAD70093B387 /* Assets.xcassets in Resources */,
+				6E5FD54721A3FAD60093B387 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5FD55021A3FAD70093B387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5FD55B21A3FAD70093B387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5FD53A21A3FAD50093B387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5FD54421A3FAD60093B387 /* ViewController.swift in Sources */,
+				6E5FD54221A3FAD60093B387 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5FD54E21A3FAD70093B387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5FD55721A3FAD70093B387 /* Verifica_Luca_BoninTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5FD55921A3FAD70093B387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5FD56221A3FAD70093B387 /* Verifica_Luca_BoninUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5FD55421A3FAD70093B387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5FD53D21A3FAD50093B387 /* Verifica_Luca_Bonin */;
+			targetProxy = 6E5FD55321A3FAD70093B387 /* PBXContainerItemProxy */;
+		};
+		6E5FD55F21A3FAD70093B387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5FD53D21A3FAD50093B387 /* Verifica_Luca_Bonin */;
+			targetProxy = 6E5FD55E21A3FAD70093B387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E5FD54521A3FAD60093B387 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5FD54621A3FAD60093B387 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E5FD54A21A3FAD70093B387 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5FD54B21A3FAD70093B387 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E5FD56421A3FAD70093B387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E5FD56521A3FAD70093B387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5FD56721A3FAD70093B387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Verifica_Luca_Bonin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.llb.Verifica-Luca-Bonin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5FD56821A3FAD70093B387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Verifica_Luca_Bonin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.llb.Verifica-Luca-Bonin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E5FD56A21A3FAD70093B387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Verifica_Luca_BoninTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.llb.Verifica-Luca-BoninTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verifica_Luca_Bonin.app/Verifica_Luca_Bonin";
+			};
+			name = Debug;
+		};
+		6E5FD56B21A3FAD70093B387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Verifica_Luca_BoninTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.llb.Verifica-Luca-BoninTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verifica_Luca_Bonin.app/Verifica_Luca_Bonin";
+			};
+			name = Release;
+		};
+		6E5FD56D21A3FAD70093B387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Verifica_Luca_BoninUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.llb.Verifica-Luca-BoninUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Verifica_Luca_Bonin;
+			};
+			name = Debug;
+		};
+		6E5FD56E21A3FAD70093B387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Verifica_Luca_BoninUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.llb.Verifica-Luca-BoninUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Verifica_Luca_Bonin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5FD53921A3FAD50093B387 /* Build configuration list for PBXProject "Verifica_Luca_Bonin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5FD56421A3FAD70093B387 /* Debug */,
+				6E5FD56521A3FAD70093B387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5FD56621A3FAD70093B387 /* Build configuration list for PBXNativeTarget "Verifica_Luca_Bonin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5FD56721A3FAD70093B387 /* Debug */,
+				6E5FD56821A3FAD70093B387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5FD56921A3FAD70093B387 /* Build configuration list for PBXNativeTarget "Verifica_Luca_BoninTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5FD56A21A3FAD70093B387 /* Debug */,
+				6E5FD56B21A3FAD70093B387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5FD56C21A3FAD70093B387 /* Build configuration list for PBXNativeTarget "Verifica_Luca_BoninUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5FD56D21A3FAD70093B387 /* Debug */,
+				6E5FD56E21A3FAD70093B387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E5FD53621A3FAD50093B387 /* Project object */;
+}
