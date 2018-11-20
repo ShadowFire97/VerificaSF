@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Verifica_Luca_Bonin
+
+  Created by Leo Luca Bonin on 20/11/2018.
+  Copyright © 2018 developer.llb. All rights reserved.
+*/
+loginLabel = "Login";
+signUpLabel = "Sign Up";
+emailPlaceHolder = "Email";
+passwordPlaceHolder = "Password";
+confirmPasswordPlaceHolder = "Confirm password";

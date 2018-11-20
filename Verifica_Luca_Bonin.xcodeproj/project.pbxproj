@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		6E5FD54221A3FAD60093B387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD54121A3FAD60093B387 /* AppDelegate.swift */; };
-		6E5FD54421A3FAD60093B387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD54321A3FAD60093B387 /* ViewController.swift */; };
 		6E5FD54721A3FAD60093B387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FD54521A3FAD60093B387 /* Main.storyboard */; };
 		6E5FD54921A3FAD70093B387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FD54821A3FAD70093B387 /* Assets.xcassets */; };
 		6E5FD54C21A3FAD70093B387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FD54A21A3FAD70093B387 /* LaunchScreen.storyboard */; };
 		6E5FD55721A3FAD70093B387 /* Verifica_Luca_BoninTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD55621A3FAD70093B387 /* Verifica_Luca_BoninTests.swift */; };
 		6E5FD56221A3FAD70093B387 /* Verifica_Luca_BoninUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD56121A3FAD70093B387 /* Verifica_Luca_BoninUITests.swift */; };
+		6E5FD57121A3FDF20093B387 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FD57021A3FDF20093B387 /* GoogleService-Info.plist */; };
+		6E5FD57421A401970093B387 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD57321A401970093B387 /* R.generated.swift */; };
+		6E5FD58121A4027A0093B387 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FD58321A4027A0093B387 /* Localizable.strings */; };
+		6E5FD58821A402E10093B387 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD58721A402E10093B387 /* LoginViewController.swift */; };
+		6E5FD58A21A402F10093B387 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD58921A402F10093B387 /* SignUpViewController.swift */; };
+		6E5FD58C21A403300093B387 /* AddInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD58B21A403300093B387 /* AddInfoViewController.swift */; };
+		6E5FD58F21A404180093B387 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD58E21A404180093B387 /* Extension.swift */; };
+		6E5FD59121A407EA0093B387 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD59021A407EA0093B387 /* NetworkManager.swift */; };
+		6E5FD59321A40A330093B387 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD59221A40A330093B387 /* UserListViewController.swift */; };
+		6E5FD59521A40B0A0093B387 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD59421A40B0A0093B387 /* UserCell.swift */; };
+		6E5FD59721A40DC20093B387 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FD59621A40DC20093B387 /* User.swift */; };
+		6E95C99621A448E6002F4DFA /* RealmUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95C99521A448E6002F4DFA /* RealmUtils.swift */; };
+		6E95C99821A44E40002F4DFA /* GeneralUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95C99721A44E40002F4DFA /* GeneralUtils.swift */; };
+		6E95C99C21A451E8002F4DFA /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95C99B21A451E8002F4DFA /* LoadingController.swift */; };
+		DEA2C4E4DFBFC3B91B928971 /* Pods_Verifica_Luca_Bonin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4DF118681B4C854EA3FD67 /* Pods_Verifica_Luca_Bonin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17A64EE8524852D3F083580E /* Pods-Verifica_Luca_Bonin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verifica_Luca_Bonin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Verifica_Luca_Bonin/Pods-Verifica_Luca_Bonin.debug.xcconfig"; sourceTree = "<group>"; };
 		6E5FD53E21A3FAD50093B387 /* Verifica_Luca_Bonin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verifica_Luca_Bonin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5FD54121A3FAD60093B387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E5FD54321A3FAD60093B387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E5FD54621A3FAD60093B387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E5FD54821A3FAD70093B387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E5FD54B21A3FAD70093B387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,25 @@
 		6E5FD55D21A3FAD70093B387 /* Verifica_Luca_BoninUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Verifica_Luca_BoninUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5FD56121A3FAD70093B387 /* Verifica_Luca_BoninUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verifica_Luca_BoninUITests.swift; sourceTree = "<group>"; };
 		6E5FD56321A3FAD70093B387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5FD57021A3FDF20093B387 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E5FD57321A401970093B387 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		6E5FD57F21A4026C0093B387 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		6E5FD58021A4026C0093B387 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6E5FD58221A4027A0093B387 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E5FD58421A402870093B387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E5FD58721A402E10093B387 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6E5FD58921A402F10093B387 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6E5FD58B21A403300093B387 /* AddInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoViewController.swift; sourceTree = "<group>"; };
+		6E5FD58E21A404180093B387 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		6E5FD59021A407EA0093B387 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6E5FD59221A40A330093B387 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		6E5FD59421A40B0A0093B387 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		6E5FD59621A40DC20093B387 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6E95C99521A448E6002F4DFA /* RealmUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmUtils.swift; sourceTree = "<group>"; };
+		6E95C99721A44E40002F4DFA /* GeneralUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralUtils.swift; sourceTree = "<group>"; };
+		6E95C99B21A451E8002F4DFA /* LoadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
+		ADEB2A93EFBD36C46F6CED6F /* Pods-Verifica_Luca_Bonin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verifica_Luca_Bonin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Verifica_Luca_Bonin/Pods-Verifica_Luca_Bonin.release.xcconfig"; sourceTree = "<group>"; };
+		CC4DF118681B4C854EA3FD67 /* Pods_Verifica_Luca_Bonin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verifica_Luca_Bonin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA2C4E4DFBFC3B91B928971 /* Pods_Verifica_Luca_Bonin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +108,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5F7D6A91233BDD85EC16B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DF118681B4C854EA3FD67 /* Pods_Verifica_Luca_Bonin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E5FD53521A3FAD50093B387 = {
 			isa = PBXGroup;
 			children = (
+				6E5FD57321A401970093B387 /* R.generated.swift */,
+				6E5FD57021A3FDF20093B387 /* GoogleService-Info.plist */,
 				6E5FD54021A3FAD50093B387 /* Verifica_Luca_Bonin */,
 				6E5FD55521A3FAD70093B387 /* Verifica_Luca_BoninTests */,
 				6E5FD56021A3FAD70093B387 /* Verifica_Luca_BoninUITests */,
 				6E5FD53F21A3FAD50093B387 /* Products */,
+				CFC8F86DB11CD56A7399B0D8 /* Pods */,
+				1A5F7D6A91233BDD85EC16B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +143,21 @@
 		6E5FD54021A3FAD50093B387 /* Verifica_Luca_Bonin */ = {
 			isa = PBXGroup;
 			children = (
+				6E5FD58D21A403400093B387 /* UserList */,
+				6E5FD58621A402C10093B387 /* SignUp */,
+				6E5FD58521A402BB0093B387 /* Login */,
+				6E5FD56F21A3FB1E0093B387 /* Model */,
 				6E5FD54121A3FAD60093B387 /* AppDelegate.swift */,
-				6E5FD54321A3FAD60093B387 /* ViewController.swift */,
 				6E5FD54521A3FAD60093B387 /* Main.storyboard */,
 				6E5FD54821A3FAD70093B387 /* Assets.xcassets */,
 				6E5FD54A21A3FAD70093B387 /* LaunchScreen.storyboard */,
 				6E5FD54D21A3FAD70093B387 /* Info.plist */,
+				6E5FD58321A4027A0093B387 /* Localizable.strings */,
+				6E5FD58E21A404180093B387 /* Extension.swift */,
+				6E5FD59021A407EA0093B387 /* NetworkManager.swift */,
+				6E95C99521A448E6002F4DFA /* RealmUtils.swift */,
+				6E95C99721A44E40002F4DFA /* GeneralUtils.swift */,
+				6E95C99B21A451E8002F4DFA /* LoadingController.swift */,
 			);
 			path = Verifica_Luca_Bonin;
 			sourceTree = "<group>";
@@ -125,6 +180,49 @@
 			path = Verifica_Luca_BoninUITests;
 			sourceTree = "<group>";
 		};
+		6E5FD56F21A3FB1E0093B387 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FD59621A40DC20093B387 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E5FD58521A402BB0093B387 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FD58721A402E10093B387 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6E5FD58621A402C10093B387 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FD58921A402F10093B387 /* SignUpViewController.swift */,
+				6E5FD58B21A403300093B387 /* AddInfoViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		6E5FD58D21A403400093B387 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FD59221A40A330093B387 /* UserListViewController.swift */,
+				6E5FD59421A40B0A0093B387 /* UserCell.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		CFC8F86DB11CD56A7399B0D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A64EE8524852D3F083580E /* Pods-Verifica_Luca_Bonin.debug.xcconfig */,
+				ADEB2A93EFBD36C46F6CED6F /* Pods-Verifica_Luca_Bonin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E5FD56621A3FAD70093B387 /* Build configuration list for PBXNativeTarget "Verifica_Luca_Bonin" */;
 			buildPhases = (
+				3859791FBCF20752917C580B /* [CP] Check Pods Manifest.lock */,
 				6E5FD53A21A3FAD50093B387 /* Sources */,
 				6E5FD53B21A3FAD50093B387 /* Frameworks */,
 				6E5FD53C21A3FAD50093B387 /* Resources */,
+				6E5FD57221A4017F0093B387 /* ShellScript */,
+				981E649757B65D670F655F7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,7 +330,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5FD58121A4027A0093B387 /* Localizable.strings in Resources */,
 				6E5FD54C21A3FAD70093B387 /* LaunchScreen.storyboard in Resources */,
+				6E5FD57121A3FDF20093B387 /* GoogleService-Info.plist in Resources */,
 				6E5FD54921A3FAD70093B387 /* Assets.xcassets in Resources */,
 				6E5FD54721A3FAD60093B387 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +354,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3859791FBCF20752917C580B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Verifica_Luca_Bonin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E5FD57221A4017F0093B387 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\n";
+		};
+		981E649757B65D670F655F7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Verifica_Luca_Bonin/Pods-Verifica_Luca_Bonin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Verifica_Luca_Bonin/Pods-Verifica_Luca_Bonin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E5FD53A21A3FAD50093B387 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5FD54421A3FAD60093B387 /* ViewController.swift in Sources */,
+				6E95C99821A44E40002F4DFA /* GeneralUtils.swift in Sources */,
+				6E5FD58821A402E10093B387 /* LoginViewController.swift in Sources */,
+				6E5FD59321A40A330093B387 /* UserListViewController.swift in Sources */,
 				6E5FD54221A3FAD60093B387 /* AppDelegate.swift in Sources */,
+				6E5FD57421A401970093B387 /* R.generated.swift in Sources */,
+				6E5FD59121A407EA0093B387 /* NetworkManager.swift in Sources */,
+				6E5FD59521A40B0A0093B387 /* UserCell.swift in Sources */,
+				6E5FD58F21A404180093B387 /* Extension.swift in Sources */,
+				6E95C99C21A451E8002F4DFA /* LoadingController.swift in Sources */,
+				6E5FD58C21A403300093B387 /* AddInfoViewController.swift in Sources */,
+				6E95C99621A448E6002F4DFA /* RealmUtils.swift in Sources */,
+				6E5FD59721A40DC20093B387 /* User.swift in Sources */,
+				6E5FD58A21A402F10093B387 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +503,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E5FD54621A3FAD60093B387 /* Base */,
+				6E5FD57F21A4026C0093B387 /* it */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,8 +512,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E5FD54B21A3FAD70093B387 /* Base */,
+				6E5FD58021A4026C0093B387 /* it */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6E5FD58321A4027A0093B387 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5FD58221A4027A0093B387 /* it */,
+				6E5FD58421A402870093B387 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -430,6 +649,7 @@
 		};
 		6E5FD56721A3FAD70093B387 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A64EE8524852D3F083580E /* Pods-Verifica_Luca_Bonin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +667,7 @@
 		};
 		6E5FD56821A3FAD70093B387 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEB2A93EFBD36C46F6CED6F /* Pods-Verifica_Luca_Bonin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
